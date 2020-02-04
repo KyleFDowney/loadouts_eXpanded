@@ -132,3 +132,4 @@ ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/pyro
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/electromancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/geomancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/toximancer" )  
+ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/slime" )  

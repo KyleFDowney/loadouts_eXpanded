@@ -94,23 +94,22 @@ loadout_list =
 			"STRONG_KICK",
 		},
 	},
-
 	{
-		name = "a Toximancer",
-		folder = "toximancer",
+		name = "a Slimy Wizard",
+		folder = "slime",
 		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
-		cape_color = 0xff35b879,
-		cape_color_edge = 0xff2b7652,
+		cape_color = 0xffad5dc7,
+		cape_color_edge = 0xff704180,
 		items = 
 		{
-			"mods/loadouts_expanded/files/loadouts/toximancer/wands/wand_1.xml",
-			"mods/loadouts_expanded/files/loadouts/toximancer/wands/wand_2.xml",
-			"mods/loadouts_expanded/files/potions/potion_toxic.xml",
+			"mods/loadouts_expanded/files/loadouts/slime/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/slime/wands/wand_2.xml",
+			"mods/loadouts_expanded/files/potions/potion_slime.xml",
 
 		},
 		perks =
 		{
-			"PROTECTION_RADIOACTIVITY",
+			"BLEED_SLIME",
 		},
 	},
 
