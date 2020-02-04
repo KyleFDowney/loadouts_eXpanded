@@ -1,0 +1,8 @@
+mods/loadouts_expanded/files/loadouts/tempemancer/ragdoll/torso.png
+mods/loadouts_expanded/files/loadouts/tempemancer/ragdoll/right_thigh.png
+mods/loadouts_expanded/files/loadouts/tempemancer/ragdoll/right_arm.png
+mods/loadouts_expanded/files/loadouts/tempemancer/ragdoll/right_hand.png
+mods/loadouts_expanded/files/loadouts/tempemancer/ragdoll/left_thigh.png
+mods/loadouts_expanded/files/loadouts/tempemancer/ragdoll/left_arm.png
+mods/loadouts_expanded/files/loadouts/tempemancer/ragdoll/left_hand.png
+mods/loadouts_expanded/files/loadouts/tempemancer/ragdoll/head.png

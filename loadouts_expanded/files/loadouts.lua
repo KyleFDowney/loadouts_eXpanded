@@ -1,6 +1,5 @@
 loadout_list =
 {
-
 	{
 		name = "the Noita",
 		folder = "noita",
@@ -71,6 +70,7 @@ loadout_list =
 		perks =
 		{
 			"PROTECTION_ELECTRICITY",
+			"MOVEMENT_FASTER",
 		},
 	},
 	
@@ -113,7 +113,6 @@ loadout_list =
 			"BLEED_SLIME",
 		},
 	},
-
 	{
 		name = "an Aeromancer",
 		folder = "aeromancer",
@@ -129,7 +128,29 @@ loadout_list =
 		perks =
 		{
 			"EXTRA_KNOCKBACK",
+			"HOVER_BOOST",
 		},
 	},
+	{
+		name = "a Tempemancer",
+		folder = "tempemancer",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xffbfb48c,
+		cape_color_edge = 0xffa19875,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/tempemancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/tempemancer/wands/wand_2.xml",
+			{
+			"mods/loadouts_expanded/files/potions/potion_steam.xml",
+			amount = 3,
+			}
 
+		},
+		perks =
+		{
+			"PROTECTION_ELECTRICITY",
+			"PROTECTION_EXPLOSION",
+		},
+	},
 }
