@@ -11,7 +11,7 @@ local wand = { }
 
 wand.deck_capacity = 3
 wand.actions_per_round = 1
-wand.reload_time = 34
+wand.reload_time = 24
 wand.shuffle_deck_when_empty = 0
 wand.fire_rate_wait = 14
 wand.spread_degrees = 0

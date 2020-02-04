@@ -34,7 +34,6 @@
 
    <Base file="data/entities/base_item.xml" >
         <ItemComponent
-            item_name="pyromancer_wand_1"
             remove_on_death="1"
             collect_nondefault_actions="1" >
         </ItemComponent>

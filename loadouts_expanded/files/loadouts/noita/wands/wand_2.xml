@@ -31,7 +31,6 @@
 
 	<Base file="data/entities/base_item.xml" >
 		<ItemComponent
-			item_name="noita_wand_2"
 			remove_on_death="1"
 			collect_nondefault_actions="1" >
 		</ItemComponent>
