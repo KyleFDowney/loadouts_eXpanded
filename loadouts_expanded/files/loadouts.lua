@@ -1,5 +1,6 @@
 loadout_list =
 {
+
 	{
 		name = "the Noita",
 		folder = "noita",
@@ -110,6 +111,24 @@ loadout_list =
 		perks =
 		{
 			"BLEED_SLIME",
+		},
+	},
+
+	{
+		name = "an Aeromancer",
+		folder = "aeromancer",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xff7cafb0,
+		cape_color_edge = 0xff749798,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/aeromancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/aeromancer/wands/wand_2.xml",
+
+		},
+		perks =
+		{
+			"EXTRA_KNOCKBACK",
 		},
 	},
 
