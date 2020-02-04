@@ -31,7 +31,7 @@ loadout_list =
 			"mods/loadouts_expanded/files/loadouts/hydromancer/wands/wand_2.xml",
 			{
 			"data/entities/items/pickup/potion_water.xml",
-			count = 4,
+			amount = 2,
 			}
 		},
 		perks =
@@ -57,8 +57,7 @@ loadout_list =
 			"PROTECTION_FIRE",
 		},
 	},
-	]]--
-		{
+	{
 		name = "an Electromancer",
 		folder = "electromancer",
 		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
@@ -73,6 +72,47 @@ loadout_list =
 		perks =
 		{
 			"PROTECTION_ELECTRICITY",
+		},
+	},
+	
+	{
+		name = "a Geomancer",
+		folder = "geomancer",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xff435a78,
+		cape_color_edge = 0xff3d4857,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/geomancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/geomancer/wands/wand_2.xml",
+			{
+			"mods/loadouts_expanded/files/potions/potion_soil.xml",
+			amount = 3,
+			}
+		},
+		perks =
+		{
+			"REPELLING_CAPE",
+			"STRONG_KICK",
+		},
+	},
+	]]--
+	{
+		name = "a Toximancer",
+		folder = "toximancer",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xff35b879,
+		cape_color_edge = 0xff2b7652,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/toximancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/toximancer/wands/wand_2.xml",
+			"mods/loadouts_expanded/files/potions/potion_toxic.xml",
+
+		},
+		perks =
+		{
+			"PROTECTION_RADIOACTIVITY",
 		},
 	},
 

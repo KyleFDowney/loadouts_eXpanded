@@ -1,0 +1,8 @@
+mods/loadouts_expanded/files/loadouts/toximancer/ragdoll/torso.png
+mods/loadouts_expanded/files/loadouts/toximancer/ragdoll/right_thigh.png
+mods/loadouts_expanded/files/loadouts/toximancer/ragdoll/right_arm.png
+mods/loadouts_expanded/files/loadouts/toximancer/ragdoll/right_hand.png
+mods/loadouts_expanded/files/loadouts/toximancer/ragdoll/left_thigh.png
+mods/loadouts_expanded/files/loadouts/toximancer/ragdoll/left_arm.png
+mods/loadouts_expanded/files/loadouts/toximancer/ragdoll/left_hand.png
+mods/loadouts_expanded/files/loadouts/toximancer/ragdoll/head.png
