@@ -1,7 +1,5 @@
 loadout_list =
 {
-
-	--[[
 	{
 		name = "the Noita",
 		folder = "noita",
@@ -96,7 +94,7 @@ loadout_list =
 			"STRONG_KICK",
 		},
 	},
-	]]--
+
 	{
 		name = "a Toximancer",
 		folder = "toximancer",
