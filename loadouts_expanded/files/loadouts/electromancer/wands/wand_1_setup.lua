@@ -35,5 +35,6 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 -- Add Wand Actions
 
-AddGunActionPermanent( entity_id, "ELECTRIC_CHARGE" )
-AddGunAction( entity_id, "AIR_BULLET" )
+AddGunActionPermanent( entity_id, "CONTROL" )
+AddGunAction( entity_id, "ELECTRIC_CHARGE" )
+AddGunAction( entity_id, "BUBBLESHOT" )

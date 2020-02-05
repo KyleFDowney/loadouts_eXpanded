@@ -73,7 +73,6 @@ loadout_list =
 			"MOVEMENT_FASTER",
 		},
 	},
-	
 	{
 		name = "a Geomancer",
 		folder = "geomancer",
