@@ -1,0 +1,8 @@
+mods/loadouts_expanded/files/loadouts/arachnomancer/ragdoll/torso.png
+mods/loadouts_expanded/files/loadouts/arachnomancer/ragdoll/right_thigh.png
+mods/loadouts_expanded/files/loadouts/arachnomancer/ragdoll/right_arm.png
+mods/loadouts_expanded/files/loadouts/arachnomancer/ragdoll/right_hand.png
+mods/loadouts_expanded/files/loadouts/arachnomancer/ragdoll/left_thigh.png
+mods/loadouts_expanded/files/loadouts/arachnomancer/ragdoll/left_arm.png
+mods/loadouts_expanded/files/loadouts/arachnomancer/ragdoll/left_hand.png
+mods/loadouts_expanded/files/loadouts/arachnomancer/ragdoll/head.png

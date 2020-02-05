@@ -1,6 +1,8 @@
 dofile( "mods/loadouts_expanded/files/loadouts.lua" )
 dofile( "data/scripts/perks/perk.lua" )
 
+
+
 function OnPlayerSpawned( player_entity ) -- this runs when player entity has been created
 	local init_check_flag = "loadouts_expanded_init_done"
 	if GameHasFlagRun( init_check_flag ) then
@@ -18,7 +20,7 @@ function OnPlayerSpawned( player_entity ) -- this runs when player entity has be
 	local loadout_name = loadout_choice.name
 	
 	
-	-- Uncomment the lines below to restore the random name "TYPE" function
+	-- Uncomment the lines below to restore the random name "TYPE" function from starting_loadouts
 	
 	--	local spellcaster_types = { "wizard", "warlock", "witch", "mage", "druid", "magician" }
 	--	local spellcaster_types_rnd = Random( 1, #spellcaster_types )
@@ -107,8 +109,8 @@ function OnPlayerSpawned( player_entity ) -- this runs when player entity has be
 			end
 		end
 	end
-	
-	-- spawn two perks
+
+	-- add perks
 	if ( loadout_choice.perks ~= nil ) then
 		for i,perk_name in ipairs( loadout_choice.perks ) do
 			local perk_entity = perk_spawn( x, y, perk_name )
@@ -124,7 +126,9 @@ end
 -- Stainable sprites should have a corresponding SPRITE_NAME_uv_src.png next to the sprite file, and the folder containing the sprite should be passed to ModDevGenerateSpriteUVsForDirectory().
 -- For example for 'player.png' the corresponding UV source file is called 'player_uv_src.png'
 -- ModDevGenerateSpriteUVsForDirectory() must be called in init.lua file scope. It doesn't do anything outside noita_dev.exe.
+
 ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/loadouts_expanded/files/appended_spells.lua" )
+--ModLuaFileAppend( "data/scripts/perks/perk_list.lua", "mods/loadouts_expanded/files/appended_perks.lua" )
 
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/noita" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/hydromancer" ) 
@@ -132,4 +136,8 @@ ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/pyro
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/electromancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/geomancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/toximancer" )  
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/slime" )  
+ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/slime" )
+ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/aeromancer" )
+ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/tempemancer" )
+ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/cyromancer" )
+ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/arachnomancer" )

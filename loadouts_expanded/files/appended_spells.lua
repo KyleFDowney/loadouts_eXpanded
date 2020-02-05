@@ -60,3 +60,21 @@ table.insert( actions,{
 			draw_actions( 1, true )
 		end,
 })
+table.insert(actions,{
+		id          = "SPIDER",
+		name 		= "Bursting Spider",
+		description = "Throw a spider that bursts into poison.",
+		sprite 		= "mods/loadouts_expanded/files/gui/spider.png",
+		type 		= ACTION_TYPE_PROJECTILE,
+		spawn_level                       = "0,2,4", -- DISC_BULLET
+		spawn_probability                 = "1,1,1", -- DISC_BULLET
+		price = 80,
+		mana = 25,
+		--max_uses = 40,
+		action 		= function()
+			add_projectile("mods/loadouts_expanded/files/projectiles/spider.xml")
+			-- damage 0.8 = 20
+			c.fire_rate_wait = c.fire_rate_wait + 10
+			c.spread_degrees = c.spread_degrees + 5
+		end,
+})

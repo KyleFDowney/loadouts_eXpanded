@@ -1,0 +1,19 @@
+<Sprite
+ filename="mods/loadouts_expanded/files/projectiles/gfx/spider.png"
+ offset_x="3"
+ offset_y="3"
+ default_animation="spider" >
+
+ <!-- animation -->
+ <RectAnimation
+  name="spider"
+  pos_x="0"
+  pos_y="0"
+  frame_count="3"
+  frame_width="6"
+  frame_height="6"
+  frame_wait="0.12"
+  frames_per_row="3"
+  loop="1"   >
+ </RectAnimation>
+</Sprite>
