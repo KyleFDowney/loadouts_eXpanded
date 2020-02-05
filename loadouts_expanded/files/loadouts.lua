@@ -190,4 +190,21 @@ loadout_list =
 			"ATTACK_FOOT",
 		},
 	},
+	{
+		name = "an Anthracomancer",
+		folder = "anthracomancer",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xff474446,
+		cape_color_edge = 0xff292929,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/anthracomancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/anthracomancer/wands/wand_2.xml",
+
+		},
+		perks =
+		{
+			"PROTECTION_FIRE",
+		},
+	},
 }

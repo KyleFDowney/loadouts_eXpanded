@@ -1,0 +1,8 @@
+mods/loadouts_expanded/files/loadouts/anthracomancer/ragdoll/torso.png
+mods/loadouts_expanded/files/loadouts/anthracomancer/ragdoll/right_thigh.png
+mods/loadouts_expanded/files/loadouts/anthracomancer/ragdoll/right_arm.png
+mods/loadouts_expanded/files/loadouts/anthracomancer/ragdoll/right_hand.png
+mods/loadouts_expanded/files/loadouts/anthracomancer/ragdoll/left_thigh.png
+mods/loadouts_expanded/files/loadouts/anthracomancer/ragdoll/left_arm.png
+mods/loadouts_expanded/files/loadouts/anthracomancer/ragdoll/left_hand.png
+mods/loadouts_expanded/files/loadouts/anthracomancer/ragdoll/head.png

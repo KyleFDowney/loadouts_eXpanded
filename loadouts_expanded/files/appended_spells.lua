@@ -29,6 +29,24 @@ table.insert( actions,{
 		end,
 })
 table.insert( actions,{
+	id          = "CHARCOAL_TRAIL",
+	name 		= "Charcoal Trail",
+	description = "Projectiles leave a trail of burning coals.",
+		sprite 		= "mods/loadouts_expanded/files/gui/charcoal_trail.png",
+		type 		= ACTION_TYPE_MODIFIER,
+		spawn_level                       = "0,1,2,3,4,5,6,7,8,9,10,11",
+		spawn_probability                        = "1,1,1,1,1,1,1,1,1,1,1,1",
+		mana = 15,
+		custom_xml_file = "data/entities/misc/custom_cards/water_trail.xml",
+		action 		= function()
+			c.trail_material = c.trail_material .. "coal,"
+			c.trail_material = c.trail_material .. "fire,"
+			c.trail_material_amount = c.trail_material_amount + 5
+
+
+		end,
+})
+table.insert( actions,{
 		id          = "HITFX_CRITICAL_TOXIC",
 		name 		= "Critical on Toxic",
 		description = "Adds 100% critical hit chance to projectiles on toxified enemies.",
