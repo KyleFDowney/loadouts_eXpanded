@@ -1,7 +1,6 @@
 dofile( "mods/loadouts_expanded/files/loadouts.lua" )
+ModLuaFileAppend( "data/scripts/perks/perk_list.lua", "mods/loadouts_expanded/files/appended_perks.lua")
 dofile( "data/scripts/perks/perk.lua" )
-
-
 
 function OnPlayerSpawned( player_entity ) -- this runs when player entity has been created
 	local init_check_flag = "loadouts_expanded_init_done"
@@ -128,7 +127,7 @@ end
 -- ModDevGenerateSpriteUVsForDirectory() must be called in init.lua file scope. It doesn't do anything outside noita_dev.exe.
 
 ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/loadouts_expanded/files/appended_spells.lua" )
---ModLuaFileAppend( "data/scripts/perks/perk_list.lua", "mods/loadouts_expanded/files/appended_perks.lua" )
+
 
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/noita" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/hydromancer" ) 
@@ -142,3 +141,4 @@ ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/temp
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/cyromancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/arachnomancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/anthracomancer" )
+ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/vampire" )

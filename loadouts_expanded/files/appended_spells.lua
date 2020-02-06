@@ -56,7 +56,6 @@ table.insert( actions,{
 		spawn_probability                 = "1,1,1,1", 
 		price = 70,
 		mana = 10,
-		--max_uses = 50,
 		action 		= function()
 			c.extra_entities = c.extra_entities .. "mods/loadouts_expanded/files/spells/hitfx_critical_toxic.xml,"
 			draw_actions( 1, true )
@@ -72,7 +71,6 @@ table.insert( actions,{
 		spawn_probability                 = "1,1,1,1", 
 		price = 70,
 		mana = 10,
-		--max_uses = 50,
 		action 		= function()
 			c.extra_entities = c.extra_entities .. "mods/loadouts_expanded/files/spells/hitfx_critical_slime.xml,"
 			draw_actions( 1, true )
@@ -84,15 +82,33 @@ table.insert(actions,{
 		description = "Throw a spider that bursts into poison.",
 		sprite 		= "mods/loadouts_expanded/files/gui/spider.png",
 		type 		= ACTION_TYPE_PROJECTILE,
-		spawn_level                       = "0,2,4", -- DISC_BULLET
-		spawn_probability                 = "1,1,1", -- DISC_BULLET
+		spawn_level                       = "0,2,4",
+		spawn_probability                 = "1,1,1",
 		price = 80,
 		mana = 25,
-		--max_uses = 40,
 		action 		= function()
 			add_projectile("mods/loadouts_expanded/files/projectiles/spider.xml")
 			-- damage 0.8 = 20
 			c.fire_rate_wait = c.fire_rate_wait + 10
 			c.spread_degrees = c.spread_degrees + 5
+		end,
+})
+table.insert(actions,{
+		id          = "BATS",
+		name 		= "Bats",
+		description = "Summon three bats that attack nearby enemies.",
+		sprite 		= "mods/loadouts_expanded/files/gui/spider.png",
+		type 		= ACTION_TYPE_PROJECTILE,
+		spawn_level                       = "0,2,4",
+		spawn_probability                 = "1,1,1",
+		price = 100,
+		mana = 30,
+		action 		= function()
+		c.extra_entities = c.extra_entities .. "mods/loadouts_expanded/files/entities/misc/avoiding_arc_minor.xml,"
+			add_projectile("mods/loadouts_expanded/files/projectiles/bat.xml")
+			add_projectile("mods/loadouts_expanded/files/projectiles/bat.xml")
+			add_projectile("mods/loadouts_expanded/files/projectiles/bat.xml")
+			c.fire_rate_wait = c.fire_rate_wait + 15
+			c.spread_degrees = c.spread_degrees + 15
 		end,
 })

@@ -1,5 +1,6 @@
 loadout_list =
 {
+--[[
 	{
 		name = "the Noita",
 		folder = "noita",
@@ -188,7 +189,7 @@ loadout_list =
 		{
 			"ATTACK_FOOT",
 		},
-	},
+	},d 
 	{
 		name = "an Anthracomancer",
 		folder = "anthracomancer",
@@ -204,6 +205,25 @@ loadout_list =
 		perks =
 		{
 			"PROTECTION_FIRE",
+		},
+	},
+	]]--
+	{
+		name = "a Vampire",
+		folder = "vampire",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xff0707c3,
+		cape_color_edge = 0xff070792,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/vampire/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/vampire/wands/wand_2.xml",
+
+		},
+		perks =
+		{
+			"VAMPIRISM",
+			"REVENGE_BATS",
 		},
 	},
 }

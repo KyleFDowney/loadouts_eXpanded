@@ -1,0 +1,9 @@
+<Entity >
+   
+	<LuaComponent
+		script_source_file="mods/loadouts_expanded/files/scripts/avoiding_arc_minor.lua"
+		execute_every_n_frame="3"
+		>
+	</LuaComponent>
+  
+</Entity>
