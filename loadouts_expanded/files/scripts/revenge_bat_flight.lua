@@ -56,7 +56,7 @@ if(ourVelocityComponent ~= nil and didHit == true and hitDistance < 120)then
 	end)	
 
 else
-	if script_wait_frames( entity_id, 10 ) then  return  end
+	if script_wait_frames( entity_id, 1000 ) then  return  end
 	edit_component( ourEntity, "VelocityComponent", function(comp,vars)
 		ComponentSetValueVector2( comp, "mVelocity", math.rad(Random(-2000,2000)), math.rad(Random(-2000,2000)) )
 	end)

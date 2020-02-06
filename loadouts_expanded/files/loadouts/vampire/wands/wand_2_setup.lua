@@ -35,6 +35,5 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 -- Add Wand Actions
 
-AddGunActionPermanent( entity_id, "HITFX_CRITICAL_WATER" )
-AddGunAction( entity_id, "HOMING" )
-AddGunAction( entity_id, "BUBBLESHOT" )
+AddGunActionPermanent( entity_id, "HITFX_EXPLOSION_BLOOD_BLOOD" )
+AddGunAction( entity_id, "BATS" )

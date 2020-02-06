@@ -1,6 +1,5 @@
 loadout_list =
 {
---[[
 	{
 		name = "the Noita",
 		folder = "noita",
@@ -207,7 +206,6 @@ loadout_list =
 			"PROTECTION_FIRE",
 		},
 	},
-	]]--
 	{
 		name = "a Vampire",
 		folder = "vampire",
@@ -218,6 +216,7 @@ loadout_list =
 		{
 			"mods/loadouts_expanded/files/loadouts/vampire/wands/wand_1.xml",
 			"mods/loadouts_expanded/files/loadouts/vampire/wands/wand_2.xml",
+			"mods/loadouts_expanded/files/potions/potion_blood.xml",
 
 		},
 		perks =
