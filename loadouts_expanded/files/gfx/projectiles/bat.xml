@@ -1,5 +1,5 @@
 <Sprite
- filename="mods/loadouts_expanded/files/projectiles/gfx/revenge_bat.png"
+ filename="mods/loadouts_expanded/files/gfx/projectiles/bat.png"
  offset_x="3"
  offset_y="4"
  default_animation="bat" >

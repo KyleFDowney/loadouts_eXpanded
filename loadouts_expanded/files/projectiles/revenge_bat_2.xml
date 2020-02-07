@@ -86,7 +86,7 @@
   <SpriteComponent 
     _enabled="1" 
     alpha="1" 
-    image_file="mods/loadouts_expanded/files/projectiles/gfx/revenge_bat.xml" 
+    image_file="mods/loadouts_expanded/files/gfx/projectiles/revenge_bat.xml" 
     next_rect_animation=""
     rect_animation="bat" 
 	offset_x="0" 

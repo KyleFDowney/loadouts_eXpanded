@@ -137,7 +137,7 @@ ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/toxi
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/slime" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/aeromancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/tempemancer" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/cyromancer" )
+ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/cryomancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/arachnomancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/anthracomancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/vampire" )

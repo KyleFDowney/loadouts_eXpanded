@@ -153,15 +153,15 @@ loadout_list =
 		},
 	},
 	{
-		name = "a Cyromancer",
-		folder = "cyromancer",
+		name = "a Cryomancer",
+		folder = "cryomancer",
 		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
 		cape_color = 0xffbfb48c,
 		cape_color_edge = 0xffa19875,
 		items = 
 		{
-			"mods/loadouts_expanded/files/loadouts/cyromancer/wands/wand_1.xml",
-			"mods/loadouts_expanded/files/loadouts/cyromancer/wands/wand_2.xml",
+			"mods/loadouts_expanded/files/loadouts/cryomancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/cryomancer/wands/wand_2.xml",
 			{
 			"mods/loadouts_expanded/files/potions/potion_freeze.xml",
 			amount = 3,

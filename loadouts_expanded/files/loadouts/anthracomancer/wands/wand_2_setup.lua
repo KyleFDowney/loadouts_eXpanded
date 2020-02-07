@@ -11,13 +11,13 @@ local wand = { }
 
 wand.deck_capacity = 5
 wand.actions_per_round = 1
-wand.reload_time = 34
+wand.reload_time = 8
 wand.shuffle_deck_when_empty = 1
-wand.fire_rate_wait = 14
+wand.fire_rate_wait = 6
 wand.spread_degrees = 5
 wand.speed_multiplier = 1
-wand.mana_charge_speed = 32
-wand.mana_max = 180
+wand.mana_charge_speed =20
+wand.mana_max = 200
 
 -- Apply Wand Properties
 
@@ -34,7 +34,6 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 
 -- Add Wand Actions
-AddGunAction( entity_id, "FIREBALL" )
-AddGunAction( entity_id, "FIREBALL" )
-AddGunAction( entity_id, "FIREBALL" )
-AddGunAction( entity_id, "FIREBALL" )
+
+AddGunAction( entity_id, "FLAMETHROWER" )
+AddGunAction( entity_id, "FLAMETHROWER" )
