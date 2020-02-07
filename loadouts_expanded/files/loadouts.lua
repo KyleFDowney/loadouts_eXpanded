@@ -53,6 +53,7 @@ loadout_list =
 		perks =
 		{
 			"PROTECTION_FIRE",
+			"PROTECTION_EXPLOSION",
 		},
 	},
 	{
@@ -73,6 +74,8 @@ loadout_list =
 			"MOVEMENT_FASTER",
 		},
 	},
+
+	
 	{
 		name = "a Geomancer",
 		folder = "geomancer",
@@ -130,6 +133,7 @@ loadout_list =
 			"HOVER_BOOST",
 		},
 	},
+		
 	{
 		name = "a Tempemancer",
 		folder = "tempemancer",
@@ -173,6 +177,7 @@ loadout_list =
 			"FREEZE_FIELD",
 		},
 	},
+
 	{
 		name = "an Arachnomancer",
 		folder = "arachnomancer",
@@ -190,7 +195,7 @@ loadout_list =
 			"ATTACK_FOOT",
 			"REPELLING_CAPE",
 		},
-	},	
+	},
 	{
 		name = "an Anthracomancer",
 		folder = "anthracomancer",
@@ -207,7 +212,7 @@ loadout_list =
 		{
 			"PROTECTION_FIRE",
 		},
-	},
+	},	
 	{
 		name = "a Vampire",
 		folder = "vampire",
@@ -227,4 +232,26 @@ loadout_list =
 			"REVENGE_BATS",
 		},
 	},
+		--[[
+	{
+		name = "a Psychemancer",
+		folder = "psychemancer",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xff0707c3,
+		cape_color_edge = 0xff070792,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/psychemancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/psychemancer/wands/wand_2.xml",
+			"mods/loadouts_expanded/files/potions/potion_blood_worm.xml",
+			"mods/loadouts_expanded/files/potions/potion_fungi.xml",
+
+		},
+		perks =
+		{
+			"VAMPIRISM",
+			"REVENGE_BATS",
+		},
+	},
+		]]--
 }
