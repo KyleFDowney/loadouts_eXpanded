@@ -182,13 +182,15 @@ loadout_list =
 		items = 
 		{
 			"mods/loadouts_expanded/files/loadouts/arachnomancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/arachnomancer/wands/wand_2.xml",
 
 		},
 		perks =
 		{
 			"ATTACK_FOOT",
+			"REPELLING_CAPE",
 		},
-	},d 
+	},	
 	{
 		name = "an Anthracomancer",
 		folder = "anthracomancer",

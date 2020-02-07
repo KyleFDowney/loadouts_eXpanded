@@ -114,10 +114,10 @@ table.insert(actions,{
 })
 
 table.insert(actions,{
-		id          = "HITFX_EXPLOSION_BLOOD_BLOOD",
+		id          = "HITFX_EXPLOSION_BLOOD_ON_BLOOD",
 		name 		= "Bloody Explosion",
 		description = "Explodes on bloody enemies, creating even more blood.",
-		sprite 		= "data/ui_gfx/gun_actions/explode_on_slime.png",
+		sprite 		= "mods/loadouts_expanded/files/gui/spells/explode_blood_on_blood.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "1,3,4,5", -- HITFX_BURNING_CRITICAL_HIT

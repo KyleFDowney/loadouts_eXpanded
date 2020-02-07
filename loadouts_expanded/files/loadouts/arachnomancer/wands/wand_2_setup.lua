@@ -9,15 +9,15 @@ local ability_comp = EntityGetFirstComponent( entity_id, "AbilityComponent" )
 
 local wand = { }
 
-wand.deck_capacity = 5
+wand.deck_capacity = 3
 wand.actions_per_round = 1
-wand.reload_time = 34
+wand.reload_time = 16
 wand.shuffle_deck_when_empty = 0
-wand.fire_rate_wait = 14
+wand.fire_rate_wait = 9
 wand.spread_degrees = 5
 wand.speed_multiplier = 1
-wand.mana_charge_speed = 26
-wand.mana_max = 160
+wand.mana_charge_speed =20
+wand.mana_max = 200
 
 -- Apply Wand Properties
 
@@ -35,5 +35,6 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 -- Add Wand Actions
 
-AddGunActionPermanent( entity_id, "HITFX_EXPLOSION_BLOOD_ON_BLOOD" )
-AddGunAction( entity_id, "BATS" )
+AddGunAction( entity_id, "LIGHT_BULLET" )
+AddGunAction( entity_id, "LIGHT_BULLET" )
+AddGunAction( entity_id, "LIGHT_BULLET" )
