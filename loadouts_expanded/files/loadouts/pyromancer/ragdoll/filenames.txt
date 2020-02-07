@@ -1,8 +1,8 @@
-mods/loadouts_expanded/files/loadouts/hydromancer/ragdoll/torso.png
-mods/loadouts_expanded/files/loadouts/hydromancer/ragdoll/right_thigh.png
-mods/loadouts_expanded/files/loadouts/hydromancer/ragdoll/right_arm.png
-mods/loadouts_expanded/files/loadouts/hydromancer/ragdoll/right_hand.png
-mods/loadouts_expanded/files/loadouts/hydromancer/ragdoll/left_thigh.png
-mods/loadouts_expanded/files/loadouts/hydromancer/ragdoll/left_arm.png
-mods/loadouts_expanded/files/loadouts/hydromancer/ragdoll/left_hand.png
-mods/loadouts_expanded/files/loadouts/hydromancer/ragdoll/head.png
+mods/loadouts_expanded/files/loadouts/pyromancer/ragdoll/torso.png
+mods/loadouts_expanded/files/loadouts/pyromancer/ragdoll/right_thigh.png
+mods/loadouts_expanded/files/loadouts/pyromancer/ragdoll/right_arm.png
+mods/loadouts_expanded/files/loadouts/pyromancer/ragdoll/right_hand.png
+mods/loadouts_expanded/files/loadouts/pyromancer/ragdoll/left_thigh.png
+mods/loadouts_expanded/files/loadouts/pyromancer/ragdoll/left_arm.png
+mods/loadouts_expanded/files/loadouts/pyromancer/ragdoll/left_hand.png
+mods/loadouts_expanded/files/loadouts/pyromancer/ragdoll/head.png
