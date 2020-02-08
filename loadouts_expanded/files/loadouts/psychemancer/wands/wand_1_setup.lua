@@ -11,9 +11,9 @@ local wand = { }
 
 wand.deck_capacity = 3
 wand.actions_per_round = 1
-wand.reload_time = 34
+wand.reload_time = 4
 wand.shuffle_deck_when_empty = 0
-wand.fire_rate_wait = 14
+wand.fire_rate_wait = 4
 wand.spread_degrees = 0
 wand.speed_multiplier = 1
 wand.mana_charge_speed = 10
@@ -35,4 +35,4 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 -- Add Wand Actions
 
-AddGunActionPermanent( entity_id, "GLITTER_BOMB" )
+AddGunAction( entity_id, "GLITTER_SHOT" )

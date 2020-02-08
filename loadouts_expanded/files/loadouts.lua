@@ -232,13 +232,13 @@ loadout_list =
 			"REVENGE_BATS",
 		},
 	},
-		--[[
+	--[[
 	{
 		name = "a Psychemancer",
 		folder = "psychemancer",
 		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
-		cape_color = 0xff0707c3,
-		cape_color_edge = 0xff070792,
+		cape_color = 0xff1dfbf3,
+		cape_color_edge = 0xff18cec7,
 		items = 
 		{
 			"mods/loadouts_expanded/files/loadouts/psychemancer/wands/wand_1.xml",
@@ -249,8 +249,27 @@ loadout_list =
 		},
 		perks =
 		{
-			"VAMPIRISM",
-			"REVENGE_BATS",
+			"REMOVE_FOG_OF_WAR",
+			"PSYCHEDELIC",
+		},
+	},
+
+	{
+		name = "a Solimancer",
+		folder = "solimancer",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xff6bfcff,
+		cape_color_edge = 0xffb9ffff,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/cryomancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/solimancer/wands/wand_2.xml",
+
+		},
+		perks =
+		{
+			"REMOVE_FOG_OF_WAR",
+			"INFERNO",
 		},
 	},
 		]]--

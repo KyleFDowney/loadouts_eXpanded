@@ -141,3 +141,5 @@ ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/cryo
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/arachnomancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/anthracomancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/vampire" )
+ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/psychemancer" )
+ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/solimancer" )

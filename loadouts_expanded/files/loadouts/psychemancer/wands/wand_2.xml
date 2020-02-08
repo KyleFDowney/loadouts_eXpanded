@@ -2,7 +2,7 @@
 
    <AbilityComponent
         _enabled="1" 
-        sprite_file="mods/loadouts_expanded/files/wand_gfx/cryomancer_2.xml"
+        sprite_file="mods/loadouts_expanded/files/wand_gfx/psychemancer_2.xml"
         swim_propel_amount="0"
         ui_name=""
         drop_as_item_on_death="0"
@@ -39,7 +39,7 @@
    <LuaComponent 
 		execute_on_added="1"
 		remove_after_executed="1"
-		script_source_file="mods/loadouts_expanded/files/loadouts/cryomancer/wands/wand_2_setup.lua"
+		script_source_file="mods/loadouts_expanded/files/loadouts/psychemancer/wands/wand_2_setup.lua"
 		>
 	</LuaComponent>
 

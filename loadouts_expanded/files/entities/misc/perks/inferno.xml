@@ -1,0 +1,265 @@
+<Entity>
+	<InheritTransformComponent>
+    </InheritTransformComponent>
+	
+	<MagicConvertMaterialComponent
+        from_material="water"
+        to_material="steam"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="13" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="radioactive_liquid"
+        to_material="radioactive_gas"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="13" >
+    </MagicConvertMaterialComponent>
+
+	<MagicConvertMaterialComponent
+        from_material="acid"
+        to_material="acid_gas"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="13" >
+    </MagicConvertMaterialComponent>
+	
+	<MagicConvertMaterialComponent
+        from_material="poison"
+        to_material="poison_gas"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="13" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="ice_static"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="rock_static_box2d"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="ice"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="ice_glass_b2"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="ice_glass"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="ice_ceiling"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="physics_throw_material_part2"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="ice_melting_perf_killer"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="water_ice"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="snow"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+        from_material="snow_sticky"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="snow_static"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="slush"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="snow_b2"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="rock_static_wet"
+        to_material="rock_static"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="20" >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+        from_material="ice_static"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+    <MagicConvertMaterialComponent
+        from_material="ice_b2"
+        to_material="water"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+	<MagicConvertMaterialComponent
+        from_material="ice_radioactive_static"
+        to_material="radioactive_liquid"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="20" >
+    </MagicConvertMaterialComponent>
+	
+	<MagicConvertMaterialComponent
+        from_material="ice_acid_static"
+        to_material="acid"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="20" >
+    </MagicConvertMaterialComponent>
+	
+	<MagicConvertMaterialComponent
+        from_material="snowrock_static"
+        to_material="rock_static"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="20" >
+    </MagicConvertMaterialComponent>	
+
+	<MagicConvertMaterialComponent
+        from_material="ice_cold_static"
+        to_material="blood_cold"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="20" >
+    </MagicConvertMaterialComponent>
+	
+	<MagicConvertMaterialComponent
+        from_material="ice_blood_static"
+        to_material="blood"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="20" >
+    </MagicConvertMaterialComponent>
+	
+	<MagicConvertMaterialComponent
+        from_material="ice_poison_static"
+        to_material="poison"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="20" >
+    </MagicConvertMaterialComponent>
+	
+	<MagicConvertMaterialComponent
+        from_material="ice_slime_static"
+        to_material="slime"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="20" >
+    </MagicConvertMaterialComponent>
+    
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      extinguish_flame="0"
+      is_circle="1"
+      loop="1"
+      radius="30" >
+    </MagicConvertMaterialComponent>
+  
+</Entity>

@@ -4,8 +4,8 @@ table.insert( actions,{
 	description = "Projectiles leave a trail of toxic sludge.",
 		sprite 		= "mods/loadouts_expanded/files/gui/spells/toxic_trail.png",
 		type 		= ACTION_TYPE_MODIFIER,
-		spawn_level                       = "0,1,2,3,4,5,6,7,8,9,10,11",
-		spawn_probability                        = "1,1,1,1,1,1,1,1,1,1,1,1",
+		spawn_level                       = "1,2,3,4",
+		spawn_probability                 = "1,1,1,1",
 		mana = 15,
 		custom_xml_file = "data/entities/misc/custom_cards/acid_trail.xml",
 		action 		= function()
@@ -124,9 +124,27 @@ table.insert(actions,{
 		spawn_probability                 = "1,1,1,1", -- HITFX_BURNING_CRITICAL_HIT
 		price = 100,
 		mana = 20,
-		--max_uses = 50,
 		action 		= function()
 			c.extra_entities = c.extra_entities .. "mods/loadouts_expanded/files/entities/misc/hitfx_explode_blood_blood.xml,"
 			draw_actions( 1, true )
+		end,
+})
+
+table.insert(actions,{
+		id          = "GLITTER_SHOT",
+		name 		= "Glitter Shot",
+		description = "A fast firing blast of glitter.",
+		sprite 		= "data/ui_gfx/gun_actions/glitter_bomb.png",
+		sprite_unidentified = "data/ui_gfx/gun_actions/dynamite_unidentified.png",
+		type 		= ACTION_TYPE_PROJECTILE,
+		spawn_level                       = "0,1,2,3,4", -- DYNAMITE
+		spawn_probability                 = "1,1,1,1,1", -- DYNAMITE
+		price = 30,
+		mana = 10,
+		action 		= function()
+			add_projectile("mods/loadouts_expanded/files/projectiles/glitter_shot.xml")
+			current_reload_time = current_reload_time - ACTION_DRAW_RELOAD_TIME_INCREASE - 6
+			c.fire_rate_wait = c.fire_rate_wait - 12
+			c.spread_degrees = c.spread_degrees + 4.0
 		end,
 })

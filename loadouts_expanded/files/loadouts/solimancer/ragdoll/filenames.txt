@@ -1,0 +1,8 @@
+mods/loadouts_expanded/files/loadouts/solimancer/ragdoll/torso.png
+mods/loadouts_expanded/files/loadouts/solimancer/ragdoll/right_thigh.png
+mods/loadouts_expanded/files/loadouts/solimancer/ragdoll/right_arm.png
+mods/loadouts_expanded/files/loadouts/solimancer/ragdoll/right_hand.png
+mods/loadouts_expanded/files/loadouts/solimancer/ragdoll/left_thigh.png
+mods/loadouts_expanded/files/loadouts/solimancer/ragdoll/left_arm.png
+mods/loadouts_expanded/files/loadouts/solimancer/ragdoll/left_hand.png
+mods/loadouts_expanded/files/loadouts/solimancer/ragdoll/head.png

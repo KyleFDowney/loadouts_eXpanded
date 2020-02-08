@@ -27,12 +27,12 @@
     lifetime="0" >
     <config_explosion
       never_cache="1" 
-      camera_shake="7.5" 
-      explosion_radius="12" 
+      camera_shake="4.0" 
+      explosion_radius="7" 
       explosion_sprite="mods/loadouts_expanded/files/particles/explosion_blood_red.xml"
 	  load_this_entity="data/entities/particles/particle_explosion/main_medium.xml"
       explosion_sprite_lifetime="0" 
-      create_cell_probability="80" 
+      create_cell_probability="100" 
       create_cell_material="blood" 
       hole_destroy_liquid="0" 
 	  ray_energy="200000"
@@ -50,9 +50,15 @@
       sparks_count_min="10"
       light_fade_time="0.8" 
       stains_enabled="1" 
-      stains_image="data/temp/explosion_stain.png" >
+      stains_image="data/temp/explosion_stain.png"
+	  audio_event_name="explosion_slime">
     </config_explosion>
   </ProjectileComponent>
+  
+    <AudioComponent
+      file="data/audio/Desktop/projectiles.snd"
+      event_root="projectiles/slimeblob">
+  </AudioComponent>
 
 </Entity>
 
