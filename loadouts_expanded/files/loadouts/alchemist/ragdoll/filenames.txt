@@ -1,0 +1,8 @@
+mods/loadouts_expanded/files/loadouts/alchemist/ragdoll/torso.png
+mods/loadouts_expanded/files/loadouts/alchemist/ragdoll/right_thigh.png
+mods/loadouts_expanded/files/loadouts/alchemist/ragdoll/right_arm.png
+mods/loadouts_expanded/files/loadouts/alchemist/ragdoll/right_hand.png
+mods/loadouts_expanded/files/loadouts/alchemist/ragdoll/left_thigh.png
+mods/loadouts_expanded/files/loadouts/alchemist/ragdoll/left_arm.png
+mods/loadouts_expanded/files/loadouts/alchemist/ragdoll/left_hand.png
+mods/loadouts_expanded/files/loadouts/alchemist/ragdoll/head.png

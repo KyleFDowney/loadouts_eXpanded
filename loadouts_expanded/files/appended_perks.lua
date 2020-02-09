@@ -54,6 +54,21 @@ table.insert( perk_list,
 			EntityAddChild( entity_who_picked, child_id )
 				
 		end,
-	})
+})
 ]]--
-
+table.insert( perk_list,
+	{
+		id = "MIDAS_CIRCLE",
+		ui_name = "Midas Circle",
+		ui_description = "You convert nearby earth minerals into gold.\nIncludes: Brass, Copper, Silver, & Diamond.",
+		ui_icon = "data/ui_gfx/perk_icons/protection_fire.png",
+		perk_icon = "data/items_gfx/perks/protection_fire.png",
+		usable_by_enemies = true,
+		func = function( entity_perk_item, entity_who_picked, item_name )
+		
+			local x,y = EntityGetTransform( entity_who_picked )
+			local child_id = EntityLoad( "mods/loadouts_expanded/files/entities/misc/perks/midas_circle.xml", x, y )
+			EntityAddChild( entity_who_picked, child_id )
+				
+		end,
+})

@@ -1,0 +1,49 @@
+<Entity>
+	<InheritTransformComponent>
+    </InheritTransformComponent>
+	
+	<MagicConvertMaterialComponent
+        from_material="copper"
+        to_material="gold"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+
+	<MagicConvertMaterialComponent
+        from_material="brass"
+        to_material="gold"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+	<MagicConvertMaterialComponent
+        from_material="diamond"
+        to_material="gold"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+	
+	<MagicConvertMaterialComponent
+        from_material="silver"
+        to_material="gold"
+        steps_per_frame="20"
+        loop="1"
+		is_circle="1"
+        radius="30" >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      extinguish_flame="0"
+      is_circle="1"
+      loop="1"
+      radius="30" >
+    </MagicConvertMaterialComponent>
+
+</Entity>

@@ -231,8 +231,9 @@ loadout_list =
 			"VAMPIRISM",
 			"REVENGE_BATS",
 		},
-	},
+	},	 
 	--[[
+	--IN PROGRESS
 	{
 		name = "a Psychemancer",
 		folder = "psychemancer",
@@ -253,7 +254,9 @@ loadout_list =
 			"PSYCHEDELIC",
 		},
 	},
-
+	]]--
+	--[[
+	--IN PROGRESS
 	{
 		name = "a Solimancer",
 		folder = "solimancer",
@@ -272,5 +275,26 @@ loadout_list =
 			"INFERNO",
 		},
 	},
-		]]--
+	]]--
+	--[[
+	--IN PROGRESS
+	{
+		name = "an Alchemist",
+		folder = "alchemist",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xfff766cd,
+		cape_color_edge = 0xffe15fbb,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/vampire/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/alchemist/wands/wand_2.xml",
+			"mods/loadouts_expanded/files/potions/potion_purifying.xml",
+
+		},
+		perks =
+		{
+			"MIDAS_CIRCLE",
+		},
+	},
+	]]--
 }
