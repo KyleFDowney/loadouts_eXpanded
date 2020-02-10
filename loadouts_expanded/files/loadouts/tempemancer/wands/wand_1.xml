@@ -2,7 +2,7 @@
 
    <AbilityComponent
         _enabled="1" 
-        sprite_file="mods/loadouts_expanded/files/wand_gfx/tempemancer_1.xml"
+        sprite_file="mods/loadouts_expanded/files/gfx/wands/tempemancer_1.xml"
         swim_propel_amount="0"
         ui_name=""
         drop_as_item_on_death="0"

@@ -29,7 +29,7 @@
       never_cache="1" 
       camera_shake="4.0" 
       explosion_radius="7" 
-      explosion_sprite="mods/loadouts_expanded/files/particles/explosion_blood_red.xml"
+      explosion_sprite="mods/loadouts_expanded/files/gfx/particles/explosion_blood_red.xml"
 	  load_this_entity="data/entities/particles/particle_explosion/main_medium.xml"
       explosion_sprite_lifetime="0" 
       create_cell_probability="100" 

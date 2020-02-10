@@ -35,4 +35,4 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 -- Add Wand Actions
 
-AddGunAction( entity_id, "SPIDER" )
+AddGunAction( entity_id, "LX_SPIDER" )

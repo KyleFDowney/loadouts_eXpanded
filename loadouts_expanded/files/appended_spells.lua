@@ -1,8 +1,8 @@
 table.insert( actions,{
-	id          = "RADIOACTIVE_TRAIL",
+	id          = "LX_RADIOACTIVE_TRAIL",
 	name 		= "Toxic Trail",
 	description = "Projectiles leave a trail of toxic sludge.",
-		sprite 		= "mods/loadouts_expanded/files/gui/spells/toxic_trail.png",
+		sprite 		= "mods/loadouts_expanded/files/gfx/gui/spells/toxic_trail.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "1,2,3,4",
 		spawn_probability                 = "1,1,1,1",
@@ -14,10 +14,10 @@ table.insert( actions,{
 		end,
 })
 table.insert( actions,{
-	id          = "SLIME_TRAIL",
+	id          = "LX_SLIME_TRAIL",
 	name 		= "Slime Trail",
 	description = "Projectiles leave a trail of slime.",
-		sprite 		= "mods/loadouts_expanded/files/gui/spells/slime_trail.png",
+		sprite 		= "mods/loadouts_expanded/files/gfx/gui/spells/LX_SLIME_TRAIL.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "0,1,2,3,4,5,6,7,8,9,10,11",
 		spawn_probability                        = "1,1,1,1,1,1,1,1,1,1,1,1",
@@ -29,10 +29,10 @@ table.insert( actions,{
 		end,
 })
 table.insert( actions,{
-	id          = "CHARCOAL_TRAIL",
+	id          = "LX_CHARCOAL_TRAIL",
 	name 		= "Charcoal Trail",
 	description = "Projectiles leave a trail of burning coals.",
-		sprite 		= "mods/loadouts_expanded/files/gui/spells/charcoal_trail.png",
+		sprite 		= "mods/loadouts_expanded/files/gfx/gui/spells/charcoal_trail.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "0,1,2,3,4,5,6,7,8,9,10,11",
 		spawn_probability                        = "1,1,1,1,1,1,1,1,1,1,1,1",
@@ -47,10 +47,10 @@ table.insert( actions,{
 		end,
 })
 table.insert( actions,{
-		id          = "HITFX_CRITICAL_TOXIC",
+		id          = "LX_HITFX_CRITICAL_TOXIC",
 		name 		= "Critical on Toxic",
 		description = "Adds 100% critical hit chance to projectiles on toxified enemies.",
-		sprite 		= "mods/loadouts_expanded/files/gui/spells/critical_toxic.png",
+		sprite 		= "mods/loadouts_expanded/files/gfx/gui/spells/critical_toxic.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "1,3,4,5", 
 		spawn_probability                 = "1,1,1,1", 
@@ -62,10 +62,10 @@ table.insert( actions,{
 		end,
 })
 table.insert( actions,{
-		id          = "HITFX_CRITICAL_SLIME",
+		id          = "LX_HITFX_CRITICAL_SLIME",
 		name 		= "Critical on Slimey",
 		description = "Adds 100% critical hit chance to projectiles on slimey enemies.",
-		sprite 		= "mods/loadouts_expanded/files/gui/spells/critical_slime.png",
+		sprite 		= "mods/loadouts_expanded/files/gfx/gui/spells/critical_slime.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "1,3,4,5", 
 		spawn_probability                 = "1,1,1,1", 
@@ -77,10 +77,10 @@ table.insert( actions,{
 		end,
 })
 table.insert(actions,{
-		id          = "SPIDER",
+		id          = "LX_SPIDER",
 		name 		= "Bursting Spider",
 		description = "Throw a spider that bursts into poison.",
-		sprite 		= "mods/loadouts_expanded/files/gui/spells/spider.png",
+		sprite 		= "mods/loadouts_expanded/files/gfx/gui/spells/spider.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "0,2,4",
 		spawn_probability                 = "1,1,1",
@@ -94,15 +94,15 @@ table.insert(actions,{
 		end,
 })
 table.insert(actions,{
-		id          = "BATS",
+		id          = "LX_BATS",
 		name 		= "Bats",
 		description = "Summon three bats that attack nearby enemies.",
-		sprite 		= "mods/loadouts_expanded/files/gui/spells/bats.png",
+		sprite 		= "mods/loadouts_expanded/files/gfx/gui/spells/bats.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "0,2,4",
 		spawn_probability                 = "1,1,1",
 		price = 100,
-		mana = 30,
+		mana = 35,
 		action 		= function()
 		c.extra_entities = c.extra_entities .. "mods/loadouts_expanded/files/entities/misc/avoiding_arc_minor.xml,"
 			add_projectile("mods/loadouts_expanded/files/projectiles/bat.xml")
@@ -114,10 +114,10 @@ table.insert(actions,{
 })
 
 table.insert(actions,{
-		id          = "HITFX_EXPLOSION_BLOOD_ON_BLOOD",
+		id          = "LX_HITFX_EXPLOSION_BLOOD_ON_BLOOD",
 		name 		= "Bloody Explosion",
 		description = "Explodes on bloody enemies, creating even more blood.",
-		sprite 		= "mods/loadouts_expanded/files/gui/spells/explode_blood_on_blood.png",
+		sprite 		= "mods/loadouts_expanded/files/gfx/gui/spells/explode_blood_on_blood.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "1,3,4,5", -- HITFX_BURNING_CRITICAL_HIT
@@ -131,10 +131,10 @@ table.insert(actions,{
 })
 
 table.insert(actions,{
-		id          = "GLITTER_SHOT",
+		id          = "LX_GLITTER_SHOT",
 		name 		= "Glitter Shot",
 		description = "A fast firing blast of glitter.",
-		sprite 		= "data/ui_gfx/gun_actions/glitter_bomb.png",
+		sprite 		= "mods/loadouts_expanded/files/gfx/gui/spells/glitter_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/dynamite_unidentified.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "0,1,2,3,4", -- DYNAMITE

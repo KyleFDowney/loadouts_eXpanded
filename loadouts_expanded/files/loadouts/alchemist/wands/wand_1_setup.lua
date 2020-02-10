@@ -12,12 +12,12 @@ local wand = { }
 wand.deck_capacity = 3
 wand.actions_per_round = 1
 wand.reload_time = 34
-wand.shuffle_deck_when_empty = 0
+wand.shuffle_deck_when_empty = 1
 wand.fire_rate_wait = 14
 wand.spread_degrees = 0
-wand.speed_multiplier = .5
-wand.mana_charge_speed = 10
-wand.mana_max = 30
+wand.speed_multiplier = 1
+wand.mana_charge_speed = 20
+wand.mana_max = 60
 
 -- Apply Wand Properties
 
@@ -35,5 +35,6 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 -- Add Wand Actions
 
-AddGunActionPermanent( entity_id, "MODIFIER_MIST_BLOOD" )
-AddGunAction( entity_id, "AIR_BULLET" )
+AddGunAction( entity_id, "LX_GLITTER_SHOT" )
+AddGunAction( entity_id, "LX_GLITTER_SHOT" )
+AddGunAction( entity_id, "LX_GLITTER_SHOT" )

@@ -36,5 +36,5 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 -- Add Wand Actions
 
 ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/loadouts_expanded/files/appended_spells.lua")
-AddGunActionPermanent( entity_id, "RADIOACTIVE_TRAIL" )
+AddGunActionPermanent( entity_id, "LX_RADIOACTIVE_TRAIL" )
 AddGunAction( entity_id, "SLIMEBALL" )

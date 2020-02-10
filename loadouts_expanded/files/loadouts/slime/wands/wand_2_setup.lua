@@ -35,7 +35,7 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 -- Add Wand Actions
 
-AddGunActionPermanent( entity_id, "HITFX_CRITICAL_SLIME" )
+AddGunActionPermanent( entity_id, "LX_HITFX_CRITICAL_SLIME" )
 AddGunAction( entity_id, "SPITTER" )
 AddGunAction( entity_id, "SPITTER" )
 AddGunAction( entity_id, "SPITTER" )

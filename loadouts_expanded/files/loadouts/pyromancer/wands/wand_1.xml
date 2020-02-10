@@ -2,7 +2,7 @@
 
    <AbilityComponent
         _enabled="1" 
-        sprite_file="mods/loadouts_expanded/files/wand_gfx/pyromancer_1.xml"
+        sprite_file="mods/loadouts_expanded/files/gfx/wands/pyromancer_1.xml"
         swim_propel_amount="0"
         ui_name=""
         drop_as_item_on_death="0"

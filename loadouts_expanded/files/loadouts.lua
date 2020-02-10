@@ -1,5 +1,6 @@
 loadout_list =
 {
+	--[[
 	{
 		name = "the Noita",
 		folder = "noita",
@@ -231,7 +232,8 @@ loadout_list =
 			"VAMPIRISM",
 			"REVENGE_BATS",
 		},
-	},	 
+	},
+	]]--
 	--[[
 	--IN PROGRESS
 	{
@@ -276,7 +278,6 @@ loadout_list =
 		},
 	},
 	]]--
-	--[[
 	--IN PROGRESS
 	{
 		name = "an Alchemist",
@@ -286,9 +287,14 @@ loadout_list =
 		cape_color_edge = 0xffe15fbb,
 		items = 
 		{
-			"mods/loadouts_expanded/files/loadouts/vampire/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/alchemist/wands/wand_1.xml",
 			"mods/loadouts_expanded/files/loadouts/alchemist/wands/wand_2.xml",
 			"mods/loadouts_expanded/files/potions/potion_purifying.xml",
+			{
+			"mods/loadouts_expanded/files/potions/potion_empty.xml",
+			amount=3,
+			}
+
 
 		},
 		perks =
@@ -296,5 +302,4 @@ loadout_list =
 			"MIDAS_CIRCLE",
 		},
 	},
-	]]--
 }

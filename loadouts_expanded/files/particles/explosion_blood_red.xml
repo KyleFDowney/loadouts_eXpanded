@@ -1,8 +1,9 @@
 <Sprite 
   default_animation="explosion" 
-  filename="mods/loadouts_expanded/files/particles/explosion_blood_red.png" 
+  filename="mods/loadouts_expanded/files/gfx/particles/explosion_blood_red.png" 
   offset_x="4" 
-  offset_y="4" >
+  offset_y="4" >
+
   <RectAnimation 
     frame_count="9" 
     frame_height="9" 
@@ -13,6 +14,9 @@
     name="explosion" 
     pos_x="0" 
     pos_y="1" 
-    shrink_by_one_pixel="1" >
-  </RectAnimation>
-</Sprite>
+    shrink_by_one_pixel="1" >
+
+  </RectAnimation>
+
+</Sprite>
+

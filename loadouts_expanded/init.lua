@@ -143,3 +143,4 @@ ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/anth
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/vampire" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/psychemancer" )
 ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/solimancer" )
+ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/alchemist" )

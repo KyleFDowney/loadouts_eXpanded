@@ -16,8 +16,8 @@ wand.shuffle_deck_when_empty = 0
 wand.fire_rate_wait = 14
 wand.spread_degrees = 5
 wand.speed_multiplier = 1
-wand.mana_charge_speed = 26
-wand.mana_max = 160
+wand.mana_charge_speed = 36
+wand.mana_max = 360
 
 -- Apply Wand Properties
 
@@ -34,5 +34,6 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 
 -- Add Wand Actions
-
-AddGunAction( entity_id, "BATS" )
+AddGunActionPermanent( entity_id, "SPEED" )
+AddGunActionPermanent( entity_id, "DELAYED_SPELL" )
+AddGunAction( entity_id, "EXPLOSION" )
