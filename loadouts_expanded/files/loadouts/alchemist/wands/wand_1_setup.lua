@@ -35,6 +35,6 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 -- Add Wand Actions
 
-AddGunAction( entity_id, "LX_GLITTER_SHOT" )
-AddGunAction( entity_id, "LX_GLITTER_SHOT" )
-AddGunAction( entity_id, "LX_GLITTER_SHOT" )
+AddGunAction( entity_id, "LIGHT_BULLET" )
+AddGunAction( entity_id, "BULLET" )
+AddGunAction( entity_id, "HEAVY_BULLET" )
