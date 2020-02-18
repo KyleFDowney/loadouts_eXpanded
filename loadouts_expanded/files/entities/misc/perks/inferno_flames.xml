@@ -3,12 +3,6 @@
 	<InheritTransformComponent>
     </InheritTransformComponent>
 	
-	<LuaComponent 
-        _enabled="1" 
-        execute_every_n_frame="10"
-        script_source_file="mods/loadouts_expanded/files/scripts/perks/inferno.lua" >
-    </LuaComponent>
-	
 	<MagicConvertMaterialComponent
         from_material="water"
         to_material="steam"

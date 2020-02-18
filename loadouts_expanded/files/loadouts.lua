@@ -1,5 +1,6 @@
 loadout_list =
 {
+	--[[
 	{
 		name = "the Noita",
 		folder = "noita",
@@ -12,7 +13,7 @@ loadout_list =
 			"mods/loadouts_expanded/files/loadouts/noita/wands/wand_2.xml",
 			"data/entities/items/pickup/potion_water.xml",
 		},
-		perks =
+		perks =]
 		{
 			"EDIT_WANDS_EVERYWHERE",
 		},
@@ -232,7 +233,7 @@ loadout_list =
 			"REVENGE_BATS",
 		},
 	},
-
+	]]--
 	--[[
 	--IN PROGRESS
 	{
@@ -256,7 +257,6 @@ loadout_list =
 		},
 	},
 	]]--
-	--[[
 	--IN PROGRESS
 	{
 		name = "a Solimancer",
@@ -266,7 +266,7 @@ loadout_list =
 		cape_color_edge = 0xffb9ffff,
 		items = 
 		{
-			"mods/loadouts_expanded/files/loadouts/cryomancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/solimancer/wands/wand_1.xml",
 			"mods/loadouts_expanded/files/loadouts/solimancer/wands/wand_2.xml",
 
 		},
@@ -276,8 +276,8 @@ loadout_list =
 			"INFERNO",
 		},
 	},
-	]]--
 	--IN PROGRESS
+	--[[
 	{
 		name = "an Alchemist",
 		folder = "alchemist",
@@ -301,4 +301,5 @@ loadout_list =
 			"MIDAS_CIRCLE",
 		},
 	},
+	]]--
 }

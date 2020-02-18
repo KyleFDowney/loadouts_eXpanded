@@ -36,6 +36,7 @@ table.insert( perk_list,
 			
 		end
 })
+]]--
 
 
 table.insert( perk_list,
@@ -55,7 +56,6 @@ table.insert( perk_list,
 				
 		end,
 })
-]]--
 table.insert( perk_list,
 	{
 		id = "MIDAS_CIRCLE",
