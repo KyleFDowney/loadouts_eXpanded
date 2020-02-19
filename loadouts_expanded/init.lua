@@ -123,24 +123,3 @@ function OnPlayerSpawned( player_entity ) -- this runs when player entity has be
 end
 
 ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/loadouts_expanded/files/appended_spells.lua" )
-
--- Stainable sprites should have a corresponding SPRITE_NAME_uv_src.png next to the sprite file, and the folder containing the sprite should be passed to ModDevGenerateSpriteUVsForDirectory().
--- For example for 'player.png' the corresponding UV source file is called 'player_uv_src.png'
--- ModDevGenerateSpriteUVsForDirectory() must be called in init.lua file scope. It doesn't do anything outside noita_dev.exe.
-
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/noita" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/hydromancer" ) 
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/pyromancer" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/electromancer" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/geomancer" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/toximancer" )  
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/slime" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/aeromancer" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/tempemancer" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/cryomancer" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/arachnomancer" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/anthracomancer" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/vampire" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/psychemancer" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/solimancer" )
-ModDevGenerateSpriteUVsForDirectory( "mods/loadouts_expanded/files/loadouts/alchemist" )

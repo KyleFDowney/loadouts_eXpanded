@@ -214,6 +214,7 @@ loadout_list =
 			"PROTECTION_FIRE",
 		},
 	},	
+	]]--
 	{
 		name = "a Vampire",
 		folder = "vampire",
@@ -233,7 +234,6 @@ loadout_list =
 			"REVENGE_BATS",
 		},
 	},
-	]]--
 	--[[
 	--IN PROGRESS
 	{
@@ -258,6 +258,7 @@ loadout_list =
 	},
 	]]--
 	--IN PROGRESS
+	--[[
 	{
 		name = "a Solimancer",
 		folder = "solimancer",
@@ -276,6 +277,7 @@ loadout_list =
 			"INFERNO",
 		},
 	},
+	]]--
 	--IN PROGRESS
 	--[[
 	{
