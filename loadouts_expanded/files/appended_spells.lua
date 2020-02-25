@@ -17,7 +17,7 @@ table.insert( actions,{
 	id          = "LX_SLIME_TRAIL",
 	name 		= "Slime Trail",
 	description = "Projectiles leave a trail of slime.",
-		sprite 		= "mods/loadouts_expanded/files/gfx/gui/spells/LX_SLIME_TRAIL.png",
+		sprite 		= "mods/loadouts_expanded/files/gfx/gui/spells/slime_trail.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "0,1,2,3,4,5,6,7,8,9,10,11",
 		spawn_probability                        = "1,1,1,1,1,1,1,1,1,1,1,1",

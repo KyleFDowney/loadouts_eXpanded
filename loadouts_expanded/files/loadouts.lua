@@ -1,6 +1,6 @@
 loadout_list =
 {
-	--[[
+--[[
 	{
 		name = "the Noita",
 		folder = "noita",
@@ -13,7 +13,7 @@ loadout_list =
 			"mods/loadouts_expanded/files/loadouts/noita/wands/wand_2.xml",
 			"data/entities/items/pickup/potion_water.xml",
 		},
-		perks =]
+		perks =
 		{
 			"EDIT_WANDS_EVERYWHERE",
 		},
@@ -75,8 +75,6 @@ loadout_list =
 			"MOVEMENT_FASTER",
 		},
 	},
-
-	
 	{
 		name = "a Geomancer",
 		folder = "geomancer",
@@ -134,7 +132,6 @@ loadout_list =
 			"HOVER_BOOST",
 		},
 	},
-		
 	{
 		name = "a Tempemancer",
 		folder = "tempemancer",
@@ -178,7 +175,6 @@ loadout_list =
 			"FREEZE_FIELD",
 		},
 	},
-
 	{
 		name = "an Arachnomancer",
 		folder = "arachnomancer",
@@ -214,7 +210,6 @@ loadout_list =
 			"PROTECTION_FIRE",
 		},
 	},	
-	]]--
 	{
 		name = "a Vampire",
 		folder = "vampire",
@@ -234,8 +229,9 @@ loadout_list =
 			"REVENGE_BATS",
 		},
 	},
-	--[[
+ ]]--
 	--IN PROGRESS
+	--[[
 	{
 		name = "a Psychemancer",
 		folder = "psychemancer",
@@ -258,7 +254,7 @@ loadout_list =
 	},
 	]]--
 	--IN PROGRESS
-	--[[
+
 	{
 		name = "a Solimancer",
 		folder = "solimancer",
@@ -277,7 +273,7 @@ loadout_list =
 			"INFERNO",
 		},
 	},
-	]]--
+
 	--IN PROGRESS
 	--[[
 	{

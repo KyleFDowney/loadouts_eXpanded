@@ -43,7 +43,7 @@ table.insert( perk_list,
 	{
 		id = "INFERNO",
 		ui_name = "Inferno",
-		ui_description = "You are hot as hellfire.",
+		ui_description = "You are boiling hot & immune to fire.\n You also burst into flames when taking damage.",
 		ui_icon = "data/ui_gfx/perk_icons/protection_fire.png",
 		perk_icon = "data/items_gfx/perks/protection_fire.png",
 		game_effect = "PROTECTION_FIRE",
@@ -53,6 +53,11 @@ table.insert( perk_list,
 			local x,y = EntityGetTransform( entity_who_picked )
 			local child_id = EntityLoad( "mods/loadouts_expanded/files/entities/misc/perks/inferno.xml", x, y )
 			EntityAddChild( entity_who_picked, child_id )
+			EntityAddComponent( entity_who_picked, "LuaComponent", 
+			{ 
+				script_damage_received = "mods/loadouts_expanded/files/scripts/perks/inferno.lua",
+				execute_every_n_frame = "-1",
+			} )
 				
 		end,
 })
