@@ -35,5 +35,5 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 -- Add Wand Actions
 
-AddGunActionPermanent( entity_id, "FIRE_TRAIL" )
+AddGunAction( entity_id, "FIREBOMB" )
 AddGunAction( entity_id, "FIREBOMB" )

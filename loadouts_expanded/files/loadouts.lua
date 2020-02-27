@@ -1,6 +1,5 @@
 loadout_list =
 {
---[[
 	{
 		name = "the Noita",
 		folder = "noita",
@@ -229,7 +228,7 @@ loadout_list =
 			"REVENGE_BATS",
 		},
 	},
- ]]--
+
 	--IN PROGRESS
 	--[[
 	{
