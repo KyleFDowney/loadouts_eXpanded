@@ -1,0 +1,8 @@
+mods/loadouts_expanded/files/loadouts/explodemancer/ragdoll/torso.png
+mods/loadouts_expanded/files/loadouts/explodemancer/ragdoll/right_thigh.png
+mods/loadouts_expanded/files/loadouts/explodemancer/ragdoll/right_arm.png
+mods/loadouts_expanded/files/loadouts/explodemancer/ragdoll/right_hand.png
+mods/loadouts_expanded/files/loadouts/explodemancer/ragdoll/left_thigh.png
+mods/loadouts_expanded/files/loadouts/explodemancer/ragdoll/left_arm.png
+mods/loadouts_expanded/files/loadouts/explodemancer/ragdoll/left_hand.png
+mods/loadouts_expanded/files/loadouts/explodemancer/ragdoll/head.png

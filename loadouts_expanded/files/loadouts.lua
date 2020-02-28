@@ -228,6 +228,46 @@ loadout_list =
 			"REVENGE_BATS",
 		},
 	},
+	{
+		name = "a Solimancer",
+		folder = "solimancer",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xff6bfcff,
+		cape_color_edge = 0xffb9ffff,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/solimancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/solimancer/wands/wand_2.xml",
+
+		},
+		perks =
+		{
+			"REMOVE_FOG_OF_WAR",
+			"INFERNO",
+		},
+	},
+	{
+		name = "an Explodemancer",
+		folder = "explodemancer",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xff5c4e48,
+		cape_color_edge = 0xff4b3b35,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/explodemancer/wands/wand_2.xml",
+			"mods/loadouts_expanded/files/loadouts/explodemancer/wands/wand_1.xml",
+			{
+			"mods/loadouts_expanded/files/potions/potion_bomb.xml",
+			amount = 4,
+			},
+
+		},
+		perks =
+		{
+			"PROTECTION_EXPLOSION",
+			"PROTECTION_FIRE",
+		},
+	},
 
 	--IN PROGRESS
 	--[[
@@ -252,27 +292,6 @@ loadout_list =
 		},
 	},
 	]]--
-	--IN PROGRESS
-
-	{
-		name = "a Solimancer",
-		folder = "solimancer",
-		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
-		cape_color = 0xff6bfcff,
-		cape_color_edge = 0xffb9ffff,
-		items = 
-		{
-			"mods/loadouts_expanded/files/loadouts/solimancer/wands/wand_1.xml",
-			"mods/loadouts_expanded/files/loadouts/solimancer/wands/wand_2.xml",
-
-		},
-		perks =
-		{
-			"REMOVE_FOG_OF_WAR",
-			"INFERNO",
-		},
-	},
-
 	--IN PROGRESS
 	--[[
 	{
