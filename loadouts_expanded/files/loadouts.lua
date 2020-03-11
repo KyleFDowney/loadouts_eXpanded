@@ -1,5 +1,6 @@
 loadout_list =
 {
+--[[
 	{
 		name = "the Noita",
 		folder = "noita",
@@ -228,6 +229,7 @@ loadout_list =
 			"REVENGE_BATS",
 		},
 	},
+	]]--
 	{
 		name = "a Solimancer",
 		folder = "solimancer",
@@ -246,6 +248,7 @@ loadout_list =
 			"INFERNO",
 		},
 	},
+	--[[
 	{
 		name = "an Explodemancer",
 		folder = "explodemancer",
@@ -268,7 +271,7 @@ loadout_list =
 			"PROTECTION_FIRE",
 		},
 	},
-
+	]]--
 	--IN PROGRESS
 	--[[
 	{

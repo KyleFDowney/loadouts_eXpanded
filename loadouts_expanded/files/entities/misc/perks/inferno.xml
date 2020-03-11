@@ -258,7 +258,6 @@
     
     <MagicConvertMaterialComponent
 		kill_when_finished="0"
-		extinguish_flame="0"
 		is_circle="1"
 		loop="1"
 		radius="30" >
