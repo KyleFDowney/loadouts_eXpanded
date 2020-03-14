@@ -229,7 +229,6 @@ loadout_list =
 			"REVENGE_BATS",
 		},
 	},
-	]]--
 	{
 		name = "a Solimancer",
 		folder = "solimancer",
@@ -248,17 +247,16 @@ loadout_list =
 			"INFERNO",
 		},
 	},
-	--[[
 	{
-		name = "an Explodemancer",
+		name = "an Explosive Wizard",
 		folder = "explodemancer",
 		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
 		cape_color = 0xff5c4e48,
 		cape_color_edge = 0xff4b3b35,
 		items = 
 		{
-			"mods/loadouts_expanded/files/loadouts/explodemancer/wands/wand_2.xml",
 			"mods/loadouts_expanded/files/loadouts/explodemancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/explodemancer/wands/wand_2.xml",
 			{
 			"mods/loadouts_expanded/files/potions/potion_bomb.xml",
 			amount = 4,
@@ -268,7 +266,7 @@ loadout_list =
 		perks =
 		{
 			"PROTECTION_EXPLOSION",
-			"PROTECTION_FIRE",
+			"EXPLODING_CORPSES",
 		},
 	},
 	]]--
@@ -295,7 +293,6 @@ loadout_list =
 		},
 	},
 	]]--
-	--IN PROGRESS
 	--[[
 	{
 		name = "an Alchemist",
@@ -321,4 +318,22 @@ loadout_list =
 		},
 	},
 	]]--
+		{
+		name = "a Kinetimancer",
+		folder = "kinetimancer",
+		-- NOTE: Usually the game uses ARGB format for colours, but the cape colour uses ABGR here instead
+		cape_color = 0xffa7b9c1,
+		cape_color_edge = 0xffbb5fe1,
+		items = 
+		{
+			"mods/loadouts_expanded/files/loadouts/kinetimancer/wands/wand_1.xml",
+			"mods/loadouts_expanded/files/loadouts/kinetimancer/wands/wand_2.xml",
+		},
+		perks =
+		{
+			"PROJECTILE_REPULSION",
+			"EXTRA_KNOCKBACK",
+		},
+	},
+
 }

@@ -66,8 +66,7 @@
     min_damage_to_leak="0.0"
     death_throw_particle_velocity_coeff="0.5" >
     <count_per_material_type>
-		<Material material="gunpowder_unstable" count="950"  />
-		<Material material="fire" count="50"  />
+		<Material material="gunpowder_unstable" count="1000"  />
 	</count_per_material_type>
   </MaterialInventoryComponent>
 

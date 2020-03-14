@@ -9,11 +9,11 @@ local ability_comp = EntityGetFirstComponent( entity_id, "AbilityComponent" )
 
 local wand = { }
 
-wand.deck_capacity = 3
+wand.deck_capacity = 2
 wand.actions_per_round = 1
 wand.reload_time = 34
-wand.shuffle_deck_when_empty = 1
-wand.fire_rate_wait = 6
+wand.shuffle_deck_when_empty = 0
+wand.fire_rate_wait = 14
 wand.spread_degrees = 0
 wand.speed_multiplier = 1
 wand.mana_charge_speed = 30
@@ -35,6 +35,5 @@ ComponentSetValue( ability_comp, "mana", wand.mana_max )
 
 -- Add Wand Actions
 
-AddGunAction( entity_id, "LIGHT_BULLET" )
-AddGunAction( entity_id, "BULLET" )
-AddGunAction( entity_id, "HEAVY_BULLET" )
+AddGunAction( entity_id, "FORCE_MODULE" )
+AddGunAction( entity_id, "AIR_BULLET" )
